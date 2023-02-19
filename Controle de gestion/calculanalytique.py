@@ -15,3 +15,5 @@ tableau = [
 
 for ligne in tableau:
     print('\t'.join(str(element) for element in ligne))
+
+print("Chaque produit vendu nous rapporte " + str(((QUANTITE_VENDUE * PRIX_VENTE) - (CU_REVIENT * QUANTITE_VENDUE))/QUANTITE_VENDUE) + " euros")

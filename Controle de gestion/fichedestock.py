@@ -20,7 +20,7 @@ tableau = [
     ["", "Quantite", "Prix unitaire", "Prix total"],
     ["Stock en date", 0, 0, 0], #deja ici donc rien ne rentre rien ne sort
     ["Achats", ACHAT, COUT_ACHAT, PT_ACHAT],
-    ["Production", -PRODUCTION, PU_PROD, PT_PROD]
+    ["Production / Vente", -PRODUCTION, PU_PROD, PT_PROD]
 ]
 
 for ligne in tableau:

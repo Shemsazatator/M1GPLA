@@ -1,3 +1,5 @@
+# pour calculer les charges directes et indirectes ainsi que les unités d'oeuvres
+
 print("Entrons les valeurs des repartitions primaires")
 ADM = float(input("Valeur administration: "))
 GMAT = float(input("Valeur gestion du matériel: "))
@@ -68,9 +70,7 @@ tableau = [
 ]
 
 for ligne in tableau:
-    for element in ligne:
-        print(element, end='\t')
-    print()
+    print('\t'.join(str(element) for element in ligne))
 
 tableau = [
     ["Nature d'UO", UOAPPRO, UOCPROD1, UOCPROD2, UOCPROD3, UODISTRIBUTION],
@@ -79,6 +79,4 @@ tableau = [
 ]
 
 for ligne in tableau:
-    for element in ligne:
-        print(element, end='\t')
-    print()
+    print('\t'.join(str(element) for element in ligne))

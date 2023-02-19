@@ -1,14 +1,15 @@
+# pour calculer les couts d'achats
 print("Se referer aux autres fichiers pour certaines valeurs")
+
 QUANTITE = float(input("Quantité de matière: "))
 
 choix = input("Prix unitaire(U) ou prix total(T) ?")
-
-if choix == 'U':
+if choix == 'u':
     PU = float(input("Prix unitaire: "))
     PT = PU * QUANTITE
     UOU = float(input("Prix UO unitaire: "))
     TOU = UOU * QUANTITE
-elif choix == 'T':
+elif choix == 't':
     PT = float(input("Prix total: "))
     PU = PT / QUANTITE
     TOU = float(input("Prix UO total: "))
@@ -23,7 +24,6 @@ tableau = [
     ["Charges indirectes"],
     ["Centre d'approvisionnement", QUANTITE, UOU, TOU],
     ["Cout d'achat", QUANTITE, PU + UOU, PT + TOU]
-
 ]
 
 for ligne in tableau:

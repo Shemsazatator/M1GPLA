@@ -1,4 +1,4 @@
-# pour calculer les couts d'achats
+# pour calculer les couts analytiques
 print("Se referer aux autres fichiers pour certaines valeurs")
 
 QUANTITE_VENDUE = float(input("Quantité vendue: "))

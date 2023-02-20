@@ -1,4 +1,4 @@
-# pour calculer les couts d'achats
+# pour calculer les couts de production
 print("Se referer aux autres fichiers pour certaines valeurs")
 print("Attention aux natures des UO !")
 
